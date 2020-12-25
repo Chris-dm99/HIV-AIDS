@@ -1,0 +1,272 @@
+body{
+    background-color: rgb(224, 157, 69);
+    max-width: 100%;
+    margin: auto;
+}
+
+@media(max-width:600px){
+    body{
+        background-color: violet;
+    }
+}
+
+hr{
+   text-decoration-style: dotted;
+
+}
+
+/*LOGIN*/
+
+input[type=text], input[type=password], input[type=email] ,
+input[type=number],input[type=date],input[type=sex]   {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input[type=text]:hover{
+	background-color:lightgreen;
+}
+input[type=password]:hover{
+	background-color: lightgreen;
+}
+ 
+
+/* CLASSES*/
+
+.top-container{
+    padding: 5px;
+}
+.logo{
+    width:15% ;
+    position: relative;
+    top: 0px;
+    float: left;
+    margin: auto;
+}
+.Search{
+    float: right;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;  
+    border-radius: 20px;
+}
+.logo>img{
+    width: 50%;
+    height: 50%;
+}
+.img{
+    width: 40px;
+    height: 40px;
+}
+.nav-bar{
+    background-color: teal;
+   margin-top: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%; 
+}
+
+.contents{
+    width: 50%;
+    margin: auto;
+}
+
+.container{
+    background-color: lightblue;
+    margin:5px 50px 5px 50px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: left;
+}
+.container>input:hover{
+background-color: lightcoral;
+}
+.Forms{
+   position: relative;;
+   top: 80px;
+   padding-top: 20px;
+}
+
+/* NAVIGATION BAR CSS*/
+.nav-bar>ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.nav-bar>ul>li{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav-bar>ul>li>a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    font-size: small;
+}
+.nav-bar>ul>li>a:hover{
+    background-color: orange;
+}
+.Notes{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; 
+    position: absolute;
+    display: none;
+}
+.Notes>li>a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    padding: 20px;
+    font-size: small;
+    background-color: black;
+}
+.nav-bar>ul>li:hover .Notes{
+    display: block;
+}
+.Notes>li>a:hover{
+    background-color: orange;
+}
+
+.Notifications{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; 
+    position: absolute;
+    display: none;
+}
+.Notifications>li>a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    padding: 20px;
+    font-size: small;
+    background-color: black;
+}
+.nav-bar>ul>li:hover .Notifications{
+    display: block;
+}
+.Notifications>li>a:hover{
+    background-color: orange;
+}
+
+
+.Chatroom{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; 
+    position: absolute;
+    display: none;
+}
+.Chatroom>li>a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: block;
+    padding: 20px;
+    font-size: small;
+    background-color: black;
+}
+.nav-bar>ul>li:hover .Chatroom{
+    display: block;
+}
+.Chatroom>li>a:hover{
+    background-color: orange;
+}
+
+/* LOGIN FORM*/
+
+.login-button{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgb(122, 255, 133);
+}
+.cancel-button{
+    width: auto;
+   padding-bottom: 5px;
+    background-color: red;
+    border-radius: 20px;
+    float: left;
+    transition: 1s;
+}
+
+.login{
+    background-color:lightblue;
+    margin:5px 50px 5px 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+login-button{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgb(165, 148, 161);
+}
+
+.button{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgb(132, 8, 235);
+}
+.myimage{
+    width: 50%;
+    margin: auto;
+}
+
+/*FOOTER*/
+
+.social{
+
+    height:30px;
+    width: 30px;
+    padding: 10px;
+    
+}
+
+.footer{
+    position: relative;
+    background-color: rgb(24, 22, 22);
+    top: 150px;
+    color: blue;
+   font-weight: 800px;
+   font-style: italic;
+    margin-top:100px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(241, 79, 79);
+}
+.footer:hover{
+    color: rgb(11, 236, 22);
+}
+
+
+
+
+
+
+
+
+
